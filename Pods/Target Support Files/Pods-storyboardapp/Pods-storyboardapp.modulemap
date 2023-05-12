@@ -1,0 +1,6 @@
+framework module Pods_storyboardapp {
+  umbrella header "Pods-storyboardapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
