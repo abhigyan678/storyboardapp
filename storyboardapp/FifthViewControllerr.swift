@@ -1,23 +1,25 @@
 //
-//  ThirdViewController.swift
+//  FifthViewController.swift
 //  storyboardapp
 //
-//  Created by Abhigyan Gupta on 09/05/23.
+//  Created by Abhigyan Gupta on 13/05/23.
 //
 
 import UIKit
-import MoEngageCards
 
-class ThirdViewController: UIViewController {
+class FifthViewControllerr: UIViewController {
 
+    @IBOutlet weak var Password: UITextField!
+    @IBOutlet weak var Email: UITextField!
+    @IBOutlet weak var LastName: UITextField!
+    @IBOutlet weak var FirstName: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func Cardsbtn(_ sender: Any) {
-        MoEngageSDKCards.sharedInstance.presentCardsViewController()
+    @IBAction func SignnedUp(_ sender: Any) {
     }
     
     /*

@@ -10,8 +10,8 @@ import MoEngageSDK
 
 class FirstViewController: UIViewController {
 
-    @IBOutlet weak var FirstName: UITextField!
     
+    @IBOutlet weak var FirstName: UITextField!
     @IBOutlet weak var Email: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,16 +26,18 @@ class FirstViewController: UIViewController {
         
         
         
-       // secondViewController.setup(firstName: "Abhi", secondName: "Gupta")
+      
         self.present(secondViewController, animated: true,completion: nil)
         
        // MoEngageSDKAnalytics.sharedInstance.setMobileNumber(MobileNumber.text!)
-       MoEngageSDKAnalytics.sharedInstance.setEmailID(Email.text!)
-       MoEngageSDKAnalytics.sharedInstance.setUniqueID(Email.text!)
-       MoEngageSDKAnalytics.sharedInstance.setName(FirstName.text!)
-       // MoEngageSDKAnalytics.sharedInstance.setFirstName(F)
+        MoEngageSDKAnalytics.sharedInstance.setEmailID(Email.text ?? "")
+        MoEngageSDKAnalytics.sharedInstance.setUniqueID(Email.text ?? "")
+       MoEngageSDKAnalytics.sharedInstance.setName(FirstName.text ?? "")
+       
         MoEngageSDKAnalytics.sharedInstance.trackEvent("Login", withProperties: nil)
     }
+    
+   
     
 }
 
