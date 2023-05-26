@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         //Add your MoEngage App ID
        
         
-             var sdkConfig = MoEngageSDKConfig(withAppID: "2877NHMD0TOHATHC6NNHDERW")
-            sdkConfig.moeDataCenter = .data_center_01
+        var sdkConfig = MoEngageSDKConfig(appId: "2877NHMD0TOHATHC6NNHDERW",dataCenter: .data_center_01)
+            //sdkConfig.moeDataCenter = .data_center_01
         sdkConfig.enableLogs=true
         sdkConfig.appGroupID = "group.moengage.alphadevs.moengage"
              // Separate initialization methods for Dev and Prod initializations

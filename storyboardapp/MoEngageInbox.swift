@@ -1,28 +1,23 @@
 //
-//  ThirdViewController.swift
+//  MoEngageInbox.swift
 //  storyboardapp
 //
-//  Created by Abhigyan Gupta on 09/05/23.
+//  Created by Abhigyan Gupta on 25/05/23.
 //
 
 import UIKit
-import MoEngageCards
 
-class ThirdViewController: UIViewController {
+
+class MoEngageInbox: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    @IBAction func Cardsbtn(_ sender: Any) {
-        MoEngageSDKCards.sharedInstance.presentCardsViewController()
-    }
-    
-    @IBAction func NotificationCenter(_ sender: Any) {
         
     }
+    
+
     /*
     // MARK: - Navigation
 

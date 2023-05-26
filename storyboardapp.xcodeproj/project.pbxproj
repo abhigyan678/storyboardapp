@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06A3BD4F7BB6C247D503A460 /* Pods_storyboardapp_PushTemplatesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057FF025E9F031171CE4358C /* Pods_storyboardapp_PushTemplatesExtension.framework */; };
+		214229872A1F6B810045F512 /* MoEngageInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214229862A1F6B810045F512 /* MoEngageInbox.swift */; };
 		21CB6DB22A1DEB080099B582 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FFF70C2A1BD81400141015 /* UserNotifications.framework */; };
 		21CB6DB42A1DEB080099B582 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CB6DB32A1DEB080099B582 /* UserNotificationsUI.framework */; };
 		21CB6DB72A1DEB080099B582 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB6DB62A1DEB080099B582 /* NotificationViewController.swift */; };
@@ -85,6 +86,7 @@
 		057FF025E9F031171CE4358C /* Pods_storyboardapp_PushTemplatesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_storyboardapp_PushTemplatesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEC12D13D9FDC440BE15CB2 /* Pods-storyboardapp-NotificationServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-storyboardapp-NotificationServices.release.xcconfig"; path = "Target Support Files/Pods-storyboardapp-NotificationServices/Pods-storyboardapp-NotificationServices.release.xcconfig"; sourceTree = "<group>"; };
 		2103A9322A0C035D00951714 /* storyboardapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = storyboardapp.entitlements; sourceTree = "<group>"; };
+		214229862A1F6B810045F512 /* MoEngageInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoEngageInbox.swift; sourceTree = "<group>"; };
 		21CB6DAC2A1DE68E0099B582 /* NotificationServices.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationServices.entitlements; sourceTree = "<group>"; };
 		21CB6DB12A1DEB080099B582 /* PushTemplatesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PushTemplatesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CB6DB32A1DEB080099B582 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
@@ -222,6 +224,7 @@
 				21D36BFB2A0AAFAA002BBF36 /* FourthViewController.swift */,
 				21D36BF92A0AADED002BBF36 /* ThirdViewController.swift */,
 				21D36BCB2A0A4483002BBF36 /* Main.storyboard */,
+				214229862A1F6B810045F512 /* MoEngageInbox.swift */,
 				21D36BF72A0A5376002BBF36 /* SecondViewController.swift */,
 				21D36BCE2A0A4484002BBF36 /* Assets.xcassets */,
 				21D36BD02A0A4484002BBF36 /* LaunchScreen.storyboard */,
@@ -647,6 +650,7 @@
 				21D36BFA2A0AADED002BBF36 /* ThirdViewController.swift in Sources */,
 				21D36BC62A0A4483002BBF36 /* AppDelegate.swift in Sources */,
 				21D36BC82A0A4483002BBF36 /* SceneDelegate.swift in Sources */,
+				214229872A1F6B810045F512 /* MoEngageInbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
